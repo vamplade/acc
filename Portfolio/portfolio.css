@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  background: #eee;
+  color: #222;
+  padding: 20px;
+}
+
+nav {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #f0a500;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+form {
+  background-color: gray;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+select {
+  background-color: green;
+  outline-color: white;
+  color: white;
+}
+.welcome-image {
+    display: block;
+    margin: 20px auto; /* centers the image */
+    width: 300px; /* or any width you prefer */
+    border-radius: 15px; /* makes the corners rounded */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* adds a soft shadow */
+    transition: transform 0.3s; /* smooth animation on hover */
+}
+
+.welcome-image:hover {
+    transform: scale(1.05); /* slightly zoom in on hover */
+}
